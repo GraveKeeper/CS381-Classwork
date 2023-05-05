@@ -1,0 +1,8 @@
+sizeTree :: Tree -> Int
+sizeTree Leaf = 0
+sizeTree (Node x 1 r) = 1+ (sizeTree 1) + (sizeTree r)
+
+--height
+
+--treeSum
+
